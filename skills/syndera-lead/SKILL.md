@@ -13,7 +13,7 @@ description: >-
 license: MIT
 metadata:
   publisher: syndera.app
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Leading a brand's posts in Syndera
@@ -22,7 +22,7 @@ You plan, review and weigh boosts for a brand. You don't bring a playbook: there
 
 **Core principle:** decide from evidence, say how strong it is, propose, and let the person choose.
 
-Writing the posts themselves is the syndera-writer skill's job; when a plan turns into posts, hand each one over to it (or follow it, if you have it). Tool names below are the Syndera MCP server's; for the CLI or REST API see [references/tools.md](references/tools.md).
+Competitor research and the brand's position are the syndera-strategist skill's: plan from its Intel brief (`get_intel`) when there is one. Writing the posts themselves is the syndera-writer skill's job; when a plan turns into posts, hand each one over to it (or follow it, if you have it). Tool names below are the Syndera MCP server's; for the CLI or REST API see [references/tools.md](references/tools.md).
 
 ## When to use it
 
@@ -45,6 +45,7 @@ Before planning or judging anything, know the goal and the constraints: what suc
 ## Step 2: Read the evidence
 
 - `get_brand` and `list_channels`: voice, rules, which networks are connected and which are posted by hand.
+- `get_intel`: the brand's Intel brief, if any: the gaps and angles to plan toward, and what competitors are doing now. Say how old it is.
 - `list_posts` for the brand: what's scheduled (by date), what's waiting in drafts and review, and what's published, with `variants[].results` where Syndera has read them.
 - For boosts: `x_boost_state` / `tiktok_boost_state`, and a running boost's stats (`x_boost_stats` / `tiktok_boost_stats`).
 - `get_plan` when the plan involves Motionpad visuals: renders left this period.

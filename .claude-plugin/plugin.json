@@ -1,7 +1,7 @@
 {
   "name": "syndera",
-  "description": "Syndera for your assistant: write posts in each brand's voice, plan and review them from the brand's own results, and propose boosts, connected to your Syndera account.",
-  "version": "1.0.0",
+  "description": "Syndera for your assistant: research competitors and set each brand's position, write posts in its voice, plan and review them from its own results, propose boosts, and audit drafts before they go out, connected to your Syndera account.",
+  "version": "1.1.0",
   "author": { "name": "Ketryon", "email": "hello@ketryon.com", "url": "https://syndera.app" },
   "homepage": "https://syndera.app",
   "license": "MIT"

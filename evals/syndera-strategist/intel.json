@@ -1,0 +1,6 @@
+{
+  "_note": "Recorded briefs (IntelBrief shape, GET /v1/brands/{id}/intel) seeded per brand so tasks don't spend research runs. stale-brief uses lindholm-ceramics, whose brief is dated 70 days before the run.",
+  "fjord-tea": { "briefAt": "RUN_DATE-3d", "brief": "fill from a real run before the first eval" },
+  "pixelpunch": { "briefAt": "RUN_DATE-5d", "brief": "fill from a real run before the first eval" },
+  "lindholm-ceramics": { "briefAt": "RUN_DATE-70d", "brief": "fill from a real run before the first eval" }
+}

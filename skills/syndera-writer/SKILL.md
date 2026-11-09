@@ -13,14 +13,14 @@ description: >-
 license: MIT
 metadata:
   publisher: syndera.app
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Writing posts in Syndera
 
 This skill gives you a way of working, not a style. The voice, the angle and the format belong to the brand and to the person you're working for. Syndera holds the brand's profile, its published posts with their results, and the checks every post must pass; read them and let them lead.
 
-Deciding what to post, reviewing how posts did and boosting are the syndera-lead skill's job. The tool names below are the Syndera MCP server's. On the CLI or the REST API, see [references/tools.md](references/tools.md) for the same steps.
+Deciding what to post, reviewing how posts did and boosting are the syndera-lead skill's job; competitor research, positioning and auditing drafts before they go out are syndera-strategist's. The tool names below are the Syndera MCP server's. On the CLI or the REST API, see [references/tools.md](references/tools.md) for the same steps.
 
 ## What outranks what
 
@@ -36,7 +36,7 @@ When two sources disagree, the higher one wins. Most bad social copy from agents
 ## How to work
 
 1. **Find the brand.** If the person didn't name one and there's more than one, ask, or use `list_brands` to offer the choices.
-2. **Read the brand.** `get_brand` for voice, audience, always/never rules and its link; `list_channels` for the channels it posts to and whether each is connected or posted by hand.
+2. **Read the brand.** `get_brand` for voice, audience, always/never rules and its link; `list_channels` for the channels it posts to and whether each is connected or posted by hand; `get_intel` for its Intel brief, if it has one: take angles from its gaps and angles (they're what the brand can say that competitors can't), and steer clear of hooks a competitor already owns.
 3. **Read what it has published.** `list_posts` with the brand and status `published`. Where variants carry `results` (views, likes, replies, shares, read 1 hour, 1 day and 7 days after posting), use them to choose which posts to study closely. Results only exist for posts that went out through Syndera on X, and only since the brand started posting there, so a missing number means unknown, not zero. With fewer than about ten published posts, treat the evidence as thin and say so.
 4. **Work out how much latitude you have.** A blank brief, an existing draft in the brand's voice, and a small edit to one line are different jobs. The less the person has written, the more you draft; the more they've written, the more you keep their words and change only what was asked.
 5. **Draft.** When the brief leaves the angle open, write several drafts that differ in what they say or claim, not just in wording, and let the person choose, or choose by what the brand's own posts show works. One draft is right when the person was specific.

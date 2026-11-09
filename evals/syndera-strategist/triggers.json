@@ -1,0 +1,28 @@
+{
+  "should_load": [
+    "Audit my drafts.",
+    "Look over next week's posts before they go out.",
+    "Anything wrong with what's scheduled?",
+    "Proof this post for me.",
+    "Can you check the drafts the writer just made?",
+    "Is this post on brand?",
+    "Do any of our drafts repeat each other?",
+    "Double-check the launch posts before Friday.",
+    "Who are our competitors?",
+    "What is Acme posting on TikTok?",
+    "How are we different from the others?",
+    "Give me a positioning for the launch.",
+    "What are people complaining about in our category?"
+  ],
+  "should_not_load": [
+    "Write an X post about the winter blend.",
+    "What should we post next week?",
+    "How did last week's posts do?",
+    "Should we boost this post?",
+    "Connect my TikTok account.",
+    "Make a reel with Motionpad.",
+    "Shorten this caption to 200 characters.",
+    "Audit our Stripe invoices.",
+    "Review this pull request."
+  ]
+}
