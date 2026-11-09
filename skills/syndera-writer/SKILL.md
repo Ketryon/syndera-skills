@@ -13,14 +13,14 @@ description: >-
 license: MIT
 metadata:
   publisher: syndera.app
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Writing posts in Syndera
 
 This skill gives you a way of working, not a style. The voice, the angle and the format belong to the brand and to the person you're working for. Syndera holds the brand's profile, its published posts with their results, and the checks every post must pass; read them and let them lead.
 
-The tool names below are the Syndera MCP server's. On the CLI or the REST API, see [references/tools.md](references/tools.md) for the same steps.
+Deciding what to post, reviewing how posts did and boosting are the syndera-lead skill's job. The tool names below are the Syndera MCP server's. On the CLI or the REST API, see [references/tools.md](references/tools.md) for the same steps.
 
 ## What outranks what
 

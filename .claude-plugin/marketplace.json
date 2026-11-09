@@ -5,13 +5,13 @@
     "email": "hello@ketryon.com"
   },
   "metadata": {
-    "description": "Syndera's plugin: the Syndera MCP server and the syndera-writer skill."
+    "description": "Syndera's plugin: the Syndera MCP server and two skills, syndera-writer and syndera-lead."
   },
   "plugins": [
     {
       "name": "syndera",
       "source": "./",
-      "description": "Syndera for your assistant: write, check and schedule social posts in each brand's voice, connected to your Syndera account.",
+      "description": "Syndera for your assistant: write posts in each brand's voice, plan and review them from the brand's own results, and propose boosts, connected to your Syndera account.",
       "version": "1.0.0"
     }
   ]

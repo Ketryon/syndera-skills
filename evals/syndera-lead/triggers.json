@@ -1,0 +1,26 @@
+{
+  "should_load": [
+    "What should we post next week?",
+    "Plan our content for the launch.",
+    "How did our posts do last month?",
+    "Give me a weekly review for Pixelpunch.",
+    "What's working on TikTok for us?",
+    "Should we boost this post?",
+    "How is the boost doing?",
+    "Is there anything missing from the calendar?",
+    "Which of our posts should we repeat?",
+    "Are we posting too much?"
+  ],
+  "should_not_load": [
+    "Write an X post about the winter blend.",
+    "Shorten this caption.",
+    "Add alt text to the image.",
+    "Connect my TikTok account.",
+    "What plan am I on?",
+    "Delete the draft about holiday hours.",
+    "Make a reel with Motionpad.",
+    "Translate this post into Swedish.",
+    "Summarise this article for me.",
+    "Write a Python script for the Syndera API."
+  ]
+}
