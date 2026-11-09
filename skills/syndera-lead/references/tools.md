@@ -8,7 +8,7 @@ SKILL.md names the MCP tools. On the `syndera` CLI or the REST API (`https://api
 | Its channels | `list_channels` | `syndera channels ls --brand <id>` | `GET /channels?brandId=<id>` |
 | The calendar | `list_posts` (status `scheduled`, from/to) | `syndera posts ls --brand <id> --status scheduled --from <iso> --to <iso>` | `GET /posts?brandId=<id>&status=scheduled&from=…&to=…` |
 | Published posts and results | `list_posts` (status `published`) | `syndera posts ls --brand <id> --status published --json` | `GET /posts?brandId=<id>&status=published` |
-| Drafts and review | `list_posts` (status `draft` or `review`) | `syndera posts ls --brand <id> --status review` | `GET /posts?brandId=<id>&status=review` |
+| Drafts | `list_posts` (status `draft`) | `syndera posts ls --brand <id> --status draft` | `GET /posts?brandId=<id>&status=draft` |
 | Renders left | `get_plan` | `syndera plan` | `GET /billing` |
 | Ads access on X / TikTok | `x_boost_state` / `tiktok_boost_state` | `syndera boost x <post>` / `syndera boost tiktok <post>` | `GET /posts/{id}/boost/x` / `…/tiktok` |
 | X reach estimate | `x_estimate` | (not in the CLI) | `POST /posts/{id}/boost/x/estimate` |

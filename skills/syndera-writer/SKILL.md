@@ -13,14 +13,14 @@ description: >-
 license: MIT
 metadata:
   publisher: syndera.app
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Writing posts in Syndera
 
 This skill gives you a way of working, not a style. The voice, the angle and the format belong to the brand and to the person you're working for. Syndera holds the brand's profile, its published posts with their results, and the checks every post must pass; read them and let them lead.
 
-Deciding what to post, reviewing how posts did and boosting are the syndera-lead skill's job; competitor research, positioning and auditing drafts before they go out are syndera-strategist's. The tool names below are the Syndera MCP server's. On the CLI or the REST API, see [references/tools.md](references/tools.md) for the same steps.
+Deciding what to post, reading how posts did and boosting are the syndera-lead skill's job; competitor research, positioning and auditing drafts before they go out are syndera-strategist's. The tool names below are the Syndera MCP server's. On the CLI or the REST API, see [references/tools.md](references/tools.md) for the same steps.
 
 ## What outranks what
 
@@ -43,7 +43,7 @@ When two sources disagree, the higher one wins. Most bad social copy from agents
 6. **Save it.** `create_post` with one variant per channel, each caption written for that network. To change an existing draft, `update_post` (sending variants replaces all of them).
 7. **Read the checks and fix what fails.** The response says what's wrong. Fix it by editing the post (shorten, thread it on X, change the media, set TikTok's who-can-watch), or tell the person what only they can decide.
 8. **Show the result.** Give the person the captions as saved, the channels, and anything left open.
-9. **Stop before anything goes out.** Scheduling, publishing, rendering, boosting and deleting all need the person's explicit yes. Never pick a time to post; use theirs. If scheduling or publishing answers with status `review`, the post is waiting for the person to approve it in Syndera: say exactly that, not that it's scheduled or posted.
+9. **Stop before anything goes out.** Scheduling, publishing, rendering, boosting and deleting all need the person's explicit yes. Never pick a time to post; use theirs. If scheduling or publishing answers with status `draft`, the account approves first: the post waits in Syndera's Drafts (with its time) for the person to choose Schedule. Say exactly that, not that it's scheduled or posted.
 
 After drafting, and before showing, read [references/revision-pass.md](references/revision-pass.md) once.
 

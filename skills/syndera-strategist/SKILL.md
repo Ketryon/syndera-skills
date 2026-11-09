@@ -14,7 +14,7 @@ description: >-
 license: MIT
 metadata:
   publisher: syndera.app
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Leading a brand's strategy in Syndera
@@ -69,7 +69,7 @@ Turn the position into angles: for each, the hook, the network, the proof, the s
 
 ## Step 5: Audit before it goes out
 
-For drafts, posts in review and scheduled posts (never published ones):
+For drafts and scheduled posts (never published ones):
 
 - `get_audit` first; run `audit_post` only when there's no current audit. Syndera's audit reads each post against the brand's site, rules, other posts and the Intel brief (kind `market`: an angle a competitor owns, a generic claim, a missed gap). One AI call each; warn before auditing more than about ten.
 - Then read the set as a whole: two posts on one angle in a week, a claim given differently in two posts, the same opening again and again, nothing on the gap you chose.

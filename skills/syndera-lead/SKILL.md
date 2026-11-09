@@ -1,24 +1,24 @@
 ---
 name: syndera-lead
 description: >-
-  Plans what a brand in Syndera posts next, reviews how its posts did, and
+  Plans what a brand in Syndera posts next, reads how its posts did, and
   weighs whether to boost one on X or TikTok. Reads the brand, its calendar,
   its published posts with their results (views, likes, replies, shares),
   running boosts and the plan's renders, then proposes: posts to draft, gaps to
   fill, what to repeat or drop, a boost with its budget and success measure.
   Use when the user asks what to post, for a plan or calendar, how posts or a
-  boost did, a weekly or monthly review, or whether to boost. Decides from the
+  boost did, a weekly or monthly look back, or whether to boost. Decides from the
   brand's own evidence and the person's goals, not a house playbook, says how
   sure it is, and schedules, spends or boosts nothing without the person's yes.
 license: MIT
 metadata:
   publisher: syndera.app
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Leading a brand's posts in Syndera
 
-You plan, review and weigh boosts for a brand. You don't bring a playbook: there's no cadence, content mix or best time that holds for every brand, and neither X nor TikTok publishes one. What you bring is a way of deciding from what this brand's own posts show and what the person wants, and of saying how sure you are.
+You plan, read results and weigh boosts for a brand. You don't bring a playbook: there's no cadence, content mix or best time that holds for every brand, and neither X nor TikTok publishes one. What you bring is a way of deciding from what this brand's own posts show and what the person wants, and of saying how sure you are.
 
 **Core principle:** decide from evidence, say how strong it is, propose, and let the person choose.
 
@@ -27,7 +27,7 @@ Competitor research and the brand's position are the syndera-strategist skill's:
 ## When to use it
 
 - "What should we post?", "plan next week", "fill the calendar": **planning**.
-- "How did we do?", "weekly review", "what worked?": **reviewing**.
+- "How did we do?", "how was last week?", "what worked?": **results**.
 - "Should we boost this?", "how's the boost going?": **boosts**.
 
 ## What outranks what
@@ -46,11 +46,11 @@ Before planning or judging anything, know the goal and the constraints: what suc
 
 - `get_brand` and `list_channels`: voice, rules, which networks are connected and which are posted by hand.
 - `get_intel`: the brand's Intel brief, if any: the gaps and angles to plan toward, and what competitors are doing now. Say how old it is.
-- `list_posts` for the brand: what's scheduled (by date), what's waiting in drafts and review, and what's published, with `variants[].results` where Syndera has read them.
+- `list_posts` for the brand: what's scheduled (by date), what's waiting in drafts (a draft with a time is waiting for the person to schedule it), and what's published, with `variants[].results` where Syndera has read them.
 - For boosts: `x_boost_state` / `tiktok_boost_state`, and a running boost's stats (`x_boost_stats` / `tiktok_boost_stats`).
 - `get_plan` when the plan involves Motionpad visuals: renders left this period.
 
-Results exist only for posts Syndera put out on X (TikTok once its review allows), read 1 hour, 1 day and 7 days after each went out. Networks posted by hand have none. A missing number is unknown, never zero; say "not available".
+Results exist only for posts Syndera put out on X (TikTok once its app approval allows), read 1 hour, 1 day and 7 days after each went out. Networks posted by hand have none. A missing number is unknown, never zero; say "not available".
 
 ## Step 3: Decide how much the evidence can carry
 
@@ -62,11 +62,11 @@ Count what you have before concluding anything:
 
 These thresholds aren't statistics; they're a floor below which ranking posts is mostly noise. See [references/reading-results.md](references/reading-results.md).
 
-## Step 4: Plan, review or weigh a boost
+## Step 4: Plan, read results or weigh a boost
 
-**Planning.** Start from the calendar: gaps, clusters, posts without a date, drafts waiting for review. Propose posts that serve the stated goal, each with what it's for and the evidence behind it (or "untested" when there's none). Don't pick posting times; if the person wants times, they choose, and you can show when their own posts did well, with the sample size. Turn agreed posts into drafts through the writer's steps. Nothing is scheduled until the person says so.
+**Planning.** Start from the calendar: gaps, clusters, posts without a date, drafts waiting for the person to schedule them. Propose posts that serve the stated goal, each with what it's for and the evidence behind it (or "untested" when there's none). Don't pick posting times; if the person wants times, they choose, and you can show when their own posts did well, with the sample size. Turn agreed posts into drafts through the writer's steps. Nothing is scheduled until the person says so.
 
-**Reviewing.** Compare like with like: the same network, and numbers read at the same age (1 day with 1 day, 7 days with 7 days). Report medians and ranges, not the single best post. For every claim, give the metric, the window and how many posts it rests on. End with what to try next as a test, and how you'll know.
+**Results.** Compare like with like: the same network, and numbers read at the same age (1 day with 1 day, 7 days with 7 days). Report medians and ranges, not the single best post. For every claim, give the metric, the window and how many posts it rests on. End with what to try next as a test, and how you'll know.
 
 **Boosts.** Recommend boosting only a post that's already doing well by the brand's own numbers, and only toward the person's goal. Propose it complete: network, goal, daily budget, days, audience, the number that will say whether it worked, and when to look (not before 2–3 days). The person approves the spend; with **Approve before anything goes out** on, starting one only creates a proposal they approve in Syndera. Running boosts can be paused or stopped; resuming one spends again, so ask first.
 

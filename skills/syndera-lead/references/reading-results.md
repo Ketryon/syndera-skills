@@ -34,7 +34,7 @@ There is no credible minimum number of posts that makes a social comparison reli
 | About 10–30 | "Suggestive" | Point to repeated patterns; keep testing |
 | 30+ over several weeks | "Consistent so far" | Recommend, and keep checking |
 
-A test is a small, deliberate change tried on several posts, with the measure and the review date decided first.
+A test is a small, deliberate change tried on several posts, with the measure and the date to look again decided first.
 
 ## Saying how sure you are
 

@@ -10,7 +10,7 @@ SKILL.md names the MCP tools. On the `syndera` CLI or the REST API (`https://api
 | Run research (with a yes) | `start_research` | `syndera intel <brand> run [--focus "…"]` | `POST /brands/{id}/research` |
 | A run's progress | `get_research` | (the CLI waits and shows it) | `GET /research/{id}` |
 | Research runs left | `get_plan` | `syndera plan` | `GET /billing` (`researchIncluded`, `researchUsed`, `researchRate`) |
-| Drafts and review | `list_posts` (status `draft` or `review`) | `syndera posts ls --brand <id> --status draft` | `GET /posts?brandId=<id>&status=draft` |
+| Drafts | `list_posts` (status `draft`) | `syndera posts ls --brand <id> --status draft` | `GET /posts?brandId=<id>&status=draft` |
 | A post's latest audit | `get_audit` | `syndera posts audit <id> --last` | `GET /posts/{id}/audit` |
 | Audit a post (one AI call) | `audit_post` | `syndera posts audit <id>` | `POST /posts/{id}/audit` |
 | Dismiss a finding | `dismiss_finding` | `syndera posts audit <id> --dismiss f1` | `PATCH /posts/{id}/audit/findings/{findingId}` with `{"dismissed": true}` |

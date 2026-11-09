@@ -11,8 +11,8 @@
     {
       "name": "syndera",
       "source": "./",
-      "description": "Syndera for your assistant: write posts in each brand's voice, plan and review them from the brand's own results, and propose boosts, connected to your Syndera account.",
-      "version": "1.1.0"
+      "description": "Syndera for your assistant: research competitors and set each brand's position, write posts in its voice, plan them and read their results, propose boosts, and audit drafts before they go out, connected to your Syndera account.",
+      "version": "1.2.0"
     }
   ]
 }
