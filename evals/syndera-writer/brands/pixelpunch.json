@@ -1,0 +1,10 @@
+{
+  "brand": { "id": "pixelpunch", "name": "Pixelpunch", "domain": "pixelpunch.example", "link": "https://pixelpunch.example", "tagline": "A tiny game engine for jam weekends.", "voice": "Loud, playful, lowercase, lots of emoji. Talks like a friend in a Discord.", "audience": "Indie game devs and jam participants, 16–30.", "always": ["Credit community makers by handle"], "never": ["Corporate words like 'leverage' or 'solution'"] },
+  "channels": [{ "platform": "x", "status": "connected" }, { "platform": "tiktok", "status": "connected" }],
+  "published": [
+    { "network": "x", "caption": "ok who made a whole roguelike in 48h with pixelpunch 😭 @mirabyte you absolute legend", "results": { "views": 22000, "likes": 910, "replies": 88, "shares": 140 } },
+    { "network": "x", "caption": "1.9 is out!! hot reload for shaders 🔥 your gpu will thank you (it won't, it's a gpu)", "results": { "views": 15000, "likes": 620, "replies": 41, "shares": 95 } },
+    { "network": "x", "caption": "jam starts friday. bring snacks. bring friends. bring bugs 🐛", "results": { "views": 9800, "likes": 300, "replies": 22, "shares": 51 } },
+    { "network": "tiktok", "caption": "speedrunning a platformer from empty project ⏱️ #gamedev #indiedev", "results": { "views": 120000, "likes": 9800, "replies": 210, "shares": 640 } }
+  ]
+}

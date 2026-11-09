@@ -1,0 +1,26 @@
+{
+  "should_load": [
+    "Write an X post for Fjord Tea about the new blend.",
+    "Can you rewrite this caption so it sounds like our brand?",
+    "Shorten my draft in Syndera, it's over the limit.",
+    "Turn this blog post into a TikTok caption for Pixelpunch.",
+    "The post won't schedule, a check is failing. Fix it.",
+    "Translate our newest post into Swedish.",
+    "Add alt text to the images in my draft.",
+    "Make the changelog post into an X thread.",
+    "Give me three options for a post about our launch.",
+    "Does this caption match our brand voice?"
+  ],
+  "should_not_load": [
+    "Schedule the winter post for Friday at 9.",
+    "How much have I spent on boosts this month?",
+    "Connect my TikTok account to Syndera.",
+    "What plan am I on?",
+    "Make a 15-second reel about the launch with Motionpad.",
+    "Delete the draft about holiday hours.",
+    "List my brands.",
+    "Write a Python script that calls the Syndera API.",
+    "Summarise this article for me.",
+    "What time is it in Stockholm?"
+  ]
+}

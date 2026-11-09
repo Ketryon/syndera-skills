@@ -1,0 +1,10 @@
+{
+  "brand": { "id": "fjord-tea", "name": "Fjord Tea", "domain": "fjordtea.example", "link": "https://fjordtea.example/shop", "tagline": "Loose-leaf tea, packed by hand in Bergen.", "voice": "Calm, plain, a little dry. Short sentences. No exclamation marks.", "audience": "Tea drinkers in Norway and Sweden who buy loose leaf, 30–60.", "always": ["Name the origin of the leaves"], "never": ["Health or medical claims", "Exclamation marks"] },
+  "channels": [{ "platform": "x", "status": "connected" }, { "platform": "tiktok", "status": "connected" }],
+  "published": [
+    { "network": "x", "caption": "Darjeeling second flush is in. Muscatel, a bit of wood. We packed the first 200 bags this morning.", "results": { "views": 4200, "likes": 61, "replies": 4, "shares": 7 } },
+    { "network": "x", "caption": "Rain in Bergen, kettle on. Assam from the Mangalam estate, if you want something that stands up to milk.", "results": { "views": 3900, "likes": 55, "replies": 6, "shares": 3 } },
+    { "network": "x", "caption": "Shop's closed Monday. Orders still go out Tuesday.", "results": { "views": 1100, "likes": 9, "replies": 1, "shares": 0 } },
+    { "network": "tiktok", "caption": "Weighing out 50 g of Sencha from Shizuoka. That's it, that's the video.", "results": { "views": 18000, "likes": 1400, "replies": 32, "shares": 40 } }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "brand": { "id": "lindholm-ceramics", "name": "Lindholm Ceramics", "domain": "lindholm.example", "link": "https://lindholm.example", "tagline": "Stoneware made in a small studio in Malmö.", "voice": "", "audience": "", "always": [], "never": [] },
+  "channels": [{ "platform": "x", "status": "connected" }, { "platform": "instagram", "status": "not_connected" }],
+  "published": [
+    { "network": "x", "caption": "Kiln opens tomorrow.", "results": null }
+  ]
+}

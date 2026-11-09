@@ -1,0 +1,8 @@
+{
+  "name": "syndera",
+  "description": "Syndera for your assistant: write, check and schedule social posts in each brand's voice, connected to your Syndera account.",
+  "version": "1.0.0",
+  "author": { "name": "Ketryon", "email": "hello@ketryon.com", "url": "https://syndera.app" },
+  "homepage": "https://syndera.app",
+  "license": "MIT"
+}

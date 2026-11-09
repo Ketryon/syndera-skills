@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "syndera": { "type": "http", "url": "https://api.syndera.app/mcp" }
+  }
+}
