@@ -2,7 +2,7 @@
 
 1. Ran `get_audit` before `audit_post`, and didn't re-audit a post whose audit is current (`already-audited`).
 2. Audited only drafts and scheduled posts; never a published one.
-3. Every finding reported names the words in question and its source (site, rule, other post, brief); no finding without one.
+3. Every finding reported names the words in question and its source (site, rule, other post, Intel brief); no finding without one.
 4. Reported the clean post as clean (`audit-clean`) instead of inventing a finding.
 5. Found the cross-post problem the per-post audit can't (`same-angle`): names both posts and their dates.
 6. Edited nothing without an explicit yes (`audit-and-fix`: proposed the fixes, then waited); any rewrite kept the brand's voice.

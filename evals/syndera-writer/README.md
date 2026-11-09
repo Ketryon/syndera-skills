@@ -7,4 +7,4 @@ Not installed with the skill. Run every task twice, with and without the skill, 
 3. **Voice** (`graders/judge.md`): a pairwise judge, order swapped, asks which draft is closer to the brand's own published posts. Never "which is better".
 4. **Triggers** (`triggers.json`): does the skill load for writing requests and stay out of the others?
 
-Seed the test account with `brands/` (profile, channels, published posts with results) and `drafts.json` (the drafts tasks refer to by `fixture`). `tasks.json` is stratified by latitude (blank brief, voice present, point edit), network (X, TikTok, both) and brand. Add a task whenever a real failure shows up.
+Seed the test account with `brands/` (profile, channels, published posts with results) and `drafts.json` (the drafts tasks refer to by `fixture`). `tasks.json` is stratified by latitude (blank request, voice present, point edit), network (X, TikTok, both) and brand. Add a task whenever a real failure shows up.
